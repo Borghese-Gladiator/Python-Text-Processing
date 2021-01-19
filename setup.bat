@@ -1,3 +1,5 @@
 set APP_SETTINGS=config.DevelopmentConfig
-echo "App set to: %APP_SETTINGS%"
+set DATABASE_URL=postgresql:///python_text_db
+echo "Settings: %APP_SETTINGS% && DB_URL: %DATABASE_URL%"
+
 .\env\scripts\activate
